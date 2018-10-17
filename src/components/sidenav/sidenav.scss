@@ -1,0 +1,60 @@
+@import '../../assets/scss/main.scss';
+
+.sidenav {
+  grid-area: sidenav;
+  background-color: $main-blue;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 7px 13px rgba(0, 0, 0, 0.4);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 2rem;
+  }
+
+  &-item {
+    margin-top: 2rem;
+  }
+
+  &-link {
+    &:link,
+    &:visited {
+      color: $white;
+      display: inline-block;
+      font-size: 2.5rem;
+      font-weight: 300;
+      padding: 1rem 3rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      background-image: linear-gradient(
+        100deg,
+        transparent 0%,
+        transparent 50%,
+        $white 20%
+      );
+      background-size: 220%;
+      transition: all 0.4s;
+    }
+    &:hover,
+    &:active {
+      background-position: 100%;
+      color: $main-blue;
+      transform: translateX(1rem);
+      box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.3);
+    }
+  }
+  &-footer {
+    text-align: center;
+    margin-top: 20vh;
+    color: $white;
+  }
+}

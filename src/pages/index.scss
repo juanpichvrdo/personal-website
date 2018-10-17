@@ -1,0 +1,20 @@
+@import '../assets/scss/main.scss';
+
+.home {
+  text-align: center;
+  grid-area: body;
+  height: 100%;
+
+  &-heading {
+    font-size: 7rem;
+    margin-top: 10vh;
+  }
+
+  &-subheading {
+  }
+}
+
+.tags {
+  color: $yellow;
+  font-weight: 700;
+}

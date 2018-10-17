@@ -1,0 +1,18 @@
+@import '../assets/scss/main.scss';
+
+.layout {
+  background: $white;
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 100vh;
+  grid-template-areas: 'sidenav body body body body';
+
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.body {
+  grid-area: body;
+}

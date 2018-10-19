@@ -20,9 +20,13 @@ const IndexPage = () => (
         When not playing around with code, you can catch me trying to finish my
         system engineer degree.
       </p>
-      <p className="home-text">Also huge music, series and movies nerd!</p>
+      <p className="home-text">Also huge music and series nerd!</p>
       <p className="home-text">
-        You can see some of my code on my{' '}
+        You can download my resume{' '}
+        <a className="home-links" href="'#'">
+          here
+        </a>
+        , see some of my code on my{' '}
         <a
           className="home-links"
           target="_blank"

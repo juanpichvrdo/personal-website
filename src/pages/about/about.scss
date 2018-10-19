@@ -1,3 +1,17 @@
-p {
-  color: black;
+@import '../../assets/scss/main';
+
+.about {
+  text-align: center;
+
+  &-heading {
+    @include heading();
+  }
+
+  &-subheading {
+    @include subheading();
+  }
+
+  &-text {
+    @include text();
+  }
 }

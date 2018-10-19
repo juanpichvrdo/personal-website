@@ -6,13 +6,17 @@ import './about.scss'
 const About = () => {
   return (
     <Layout>
-      <h1>Juan</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
-        distinctio quasi maxime voluptas, vel sapiente doloribus aliquam quis
-        aspernatur rerum libero unde saepe ea in eveniet. Similique laudantium
-        quia repellendus!
-      </p>
+      <div className="about">
+        <h1 className="about-heading">
+          <span className="tags">{'<'}</span>
+          About <span className="tags">{'/>'}</span>
+        </h1>
+        <p className="about-text">
+          My skills primarily lie in the front end, but I'm leveling my skillset
+          everyday.
+        </p>
+        <h3 className="about-subheading">Skills</h3>
+      </div>
     </Layout>
   )
 }

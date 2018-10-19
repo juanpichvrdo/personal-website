@@ -1,11 +1,13 @@
+@import '../../assets/scss/main.scss';
+
 .Tilt {
-  box-shadow: 2px 5px 10px rgb(240, 188, 94);
-  height: 100px;
-  width: 100px;
-  margin-top: 0 auto;
+  box-shadow: 2px 5px 10px $yellow;
+  height: 13rem;
+  width: 13rem;
+  margin: 0 auto;
   display: block;
   border-radius: 5px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .logo {

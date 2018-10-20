@@ -5,6 +5,7 @@
 
   &-heading {
     @include heading();
+    margin-bottom: 2rem;
   }
 
   &-subheading {

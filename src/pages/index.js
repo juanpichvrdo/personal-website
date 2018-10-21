@@ -13,7 +13,7 @@ const IndexPage = () => (
       <p className="home-text">
         Hi, I'm Juan! I'm a 21 year old web developer born, raised, and
         currently living in Santo Domingo, Dominican Republic. I love simple,
-        clean UI's and creating user-friendly apps using cutting edge
+        clean UI's and creating user-friendly webapps using cutting edge
         technologies.
       </p>
       <p className="home-text">
@@ -22,7 +22,7 @@ const IndexPage = () => (
       </p>
       <p className="home-text">Also huge music and series nerd!</p>
       <p className="home-text">
-        You can download my resume{' '}
+        You can download my CV{' '}
         <a className="home-links" href="'#'">
           here
         </a>

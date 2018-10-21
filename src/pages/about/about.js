@@ -13,8 +13,10 @@ const About = () => {
           About <span className="tags">{'/>'}</span>
         </h1>
         <p className="about-text">
-          My skills primarily lie in the front end, but I'm leveling my skillset
-          everyday and branching to other areas.
+          My skills primarily lie in the front end, but I am able of working my
+          way through the backend and I'm capable of doing UI design. I have a
+          big thirst for learning new things, I'm leveling my skillset and
+          acquiring new knowledge everyday!
         </p>
         <h3 className="about-subheading">Skills </h3>
         <div className="skills-grid">

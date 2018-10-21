@@ -36,7 +36,19 @@ const Sidenav = () => {
           </li>
         ))}
       </ul>
-      <p className="sidenav-footer">Coded with love by Juan D.</p>
+      <p className="sidenav-footer">
+        Coded with{' '}
+        <span
+          className="icon-heart"
+          style={{ fontSize: '1.4rem', color: '#f0bc5e' }}
+        />{' '}
+        and{' '}
+        <span
+          className="icon-music"
+          style={{ fontSize: '1.4rem', color: '#f0bc5e' }}
+        />{' '}
+        by Juan D.
+      </p>
     </div>
   )
 }

@@ -22,9 +22,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
+    justify-content: flex-start;
+    margin-top: 4vh;
     list-style: none;
-    margin-top: 2rem;
+    // margin-top: 2rem;
+    flex: 1 0 auto;
   }
 
   &-item {
@@ -36,11 +39,13 @@
     &:visited {
       color: $white;
       display: inline-block;
+      text-align: center;
+      width: 18rem;
       font-size: 2.5rem;
       font-weight: 300;
       padding: 1rem 3rem;
       text-decoration: none;
-      text-transform: uppercase;
+      // text-transform: uppercase;
       background-image: linear-gradient(
         100deg,
         transparent 0%,
@@ -60,10 +65,11 @@
   }
   &-footer {
     text-align: center;
-    margin-top: 17vh;
+    // margin-top: 20vh;
     color: $white;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     opacity: 0.7;
-    font-weight: 400;
+    font-weight: 700;
+    flex-shrink: 0;
   }
 }

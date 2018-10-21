@@ -66,6 +66,10 @@ const familiar = [
     name: 'redux',
     class: 'icon-redux',
   },
+  {
+    name: 'heroku',
+    class: 'icon-heroku',
+  },
 ]
 
 const tools = [

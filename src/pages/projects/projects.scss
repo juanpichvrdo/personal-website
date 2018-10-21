@@ -1,0 +1,14 @@
+@import '../../assets/scss/main';
+
+.projects {
+  text-align: center;
+
+  &-heading {
+    @include heading();
+    margin-bottom: 2rem;
+  }
+
+  &-subheading {
+    @include subheading();
+  }
+}

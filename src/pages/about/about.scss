@@ -21,19 +21,15 @@
 
 .skills {
   &-grid {
+    @include container();
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     grid-gap: 3rem;
-    width: 70%;
     justify-items: center;
     align-items: center;
-    margin: 0 auto;
+    margin-bottom: 7vh;
     justify-content: center;
     padding: 7rem;
-    box-shadow: 0.5rem 1rem 4rem rgba($blue-shade2, 0.5);
-    background: #fff;
-
-    margin-bottom: 7vh;
   }
 
   &-icon-container {

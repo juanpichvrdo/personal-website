@@ -2,7 +2,7 @@
 
 .projects {
   text-align: center;
-
+  height: 100%;
   &-heading {
     @include heading();
     margin-bottom: 2rem;
@@ -10,5 +10,24 @@
 
   &-subheading {
     @include subheading();
+  }
+
+  &-text {
+    @include text();
+    width: 100%;
+    font-size: 1.6rem;
+  }
+
+  &-container {
+    @include container();
+    margin-top: 10vh;
+    display: block;
+    padding: 4rem;
+  }
+
+  &-link {
+    @include links();
+    margin-top: 3rem;
+    font-size: 2.5rem;
   }
 }

@@ -49,27 +49,26 @@ const Projects = () => {
               >
                 <a
                   className="projects-link"
-                  href={project.demoLink}
+                  href={project.codeLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Code{' '}
                   <span
                     className="icon-github"
-                    style={{
-                      fontSize: '3rem',
-                      marginLeft: '.5rem',
-                    }}
+                    style={{ fontSize: '3rem', marginLeft: '.5rem' }}
                   />
                 </a>
-                <a
-                  className="projects-link"
-                  href={project.demoLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Demo
-                </a>
+                {project.demoLink && (
+                  <a
+                    className="projects-link"
+                    href={project.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
+                )}
               </div>
             </div>
           )

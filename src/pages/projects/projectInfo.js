@@ -12,6 +12,7 @@ const projectInfo = [
     languajes: [
       { className: 'icon-css3' },
       { className: 'icon-react' },
+      { className: 'icon-javascript' },
       { className: 'icon-netlify' },
     ],
     codeLink: 'https://github.com/juanpichvrdo/Taste-Discovery',
@@ -25,6 +26,7 @@ const projectInfo = [
     languajes: [
       { className: 'icon-css3' },
       { className: 'icon-react' },
+      { className: 'icon-javascript' },
       { className: 'icon-netlify' },
     ],
     codeLink: 'https://github.com/juanpichvrdo/Lyric-Scrapper',
@@ -34,10 +36,10 @@ const projectInfo = [
     imgPath: facileCloset,
     projectName: 'facileCloset',
     projectInfoText:
-      'facileCloset is a web page for a made up fictitious company. The company is supposed to be a subscription based clothing company where customers pick a plan and the company will send them a monthly box full of clothes and accessories. It was designed on Adobe XD, made with HTML5 and SASS using the BEM (Block, Element, Modifier) approach, also used ScrollReveal Javascript library for quickly animating elements as they enter the viewport on the desktop view. Hosted on Netlify. Disclaimer: The images on the website are not optimized, because of that the website might take a little bit more time at the begging to fully load.',
+      'facileCloset is a web page for a made up fictitious company. The company is supposed to be a subscription based clothing company where customers pick a plan and the company will send them a monthly box full of clothes and accessories. Designed on Adobe XD, made with HTML5 and SASS using the BEM (Block, Element, Modifier) approach, also used ScrollReveal Javascript library for quickly animating elements as they enter the viewport on the desktop view. Hosted on Netlify. Disclaimer: The images on the website are not optimized, because of that the website might take a little bit more time at the begging to fully load.',
     languajes: [
       { className: 'icon-html5' },
-      { className: 'icon-css3' },
+      { className: 'icon-sass' },
       { className: 'icon-javascript' },
       { className: 'icon-netlify' },
     ],
@@ -47,14 +49,17 @@ const projectInfo = [
   {
     imgPath: personalWebpage,
     projectName: 'Personal Website',
-    projectInfoText: 'Personal website',
+    projectInfoText:
+      'This site was made with Gatsby. Gatsby is a React-based, GraphQL powered, static site generator. It allowed me to build this site as a I would build a regular react app but the result is a a website that uses only static files for incredibly fast page loads. Used SASS for styling and Icomoon to make the icon font. Hosted on Netlify.',
     languajes: [
-      { className: 'icon-html5' },
-      { className: 'icon-css3' },
+      { className: 'icon-gatsby' },
+      { className: 'icon-react' },
       { className: 'icon-javascript' },
+      { className: 'icon-sass' },
+      { className: 'icon-graphql' },
       { className: 'icon-netlify' },
     ],
-    codeLink: 'https://github.com/juanpichvrdo/facile_closet',
+    codeLink: 'https://github.com/juanpichvrdo/personal-website',
   },
 ]
 

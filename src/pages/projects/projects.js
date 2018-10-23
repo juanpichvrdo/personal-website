@@ -29,7 +29,7 @@ const Projects = () => {
               />
               <p className="projects-text">{project.projectInfoText}</p>
               <p className="projects-text" style={{ marginTop: '2rem' }}>
-                Made with:{' '}
+                tech:{' '}
                 {project.languajes.map(languaje => {
                   return (
                     <span

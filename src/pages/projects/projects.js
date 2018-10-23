@@ -25,11 +25,18 @@ const Projects = () => {
               <img
                 src={project.imgPath}
                 alt={project.projectName}
-                style={{ width: '100%' }}
+                className="projects-img"
               />
               <p className="projects-text">{project.projectInfoText}</p>
-              <p className="projects-text" style={{ marginTop: '2rem' }}>
-                tech:{' '}
+              <h4
+                className="projects-subheading"
+                style={{
+                  border: 'none',
+                  fontWeight: '700',
+                  fontSize: '2.5rem',
+                }}
+              >
+                Tech:{' '}
                 {project.languajes.map(languaje => {
                   return (
                     <span
@@ -38,7 +45,7 @@ const Projects = () => {
                     />
                   )
                 })}
-              </p>
+              </h4>
               <div
                 style={{
                   display: 'flex',
@@ -52,6 +59,7 @@ const Projects = () => {
                   href={project.codeLink}
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ marginTop: '1.5rem' }}
                 >
                   Code{' '}
                   <span

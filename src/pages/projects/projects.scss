@@ -12,8 +12,14 @@
     @include subheading();
   }
 
+  &-img {
+    width: 100%;
+    display: block;
+  }
+
   &-text {
     @include text();
+    margin: 2rem auto;
     width: 100%;
     font-size: 1.6rem;
   }

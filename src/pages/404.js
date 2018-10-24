@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 const NotFoundPage = () => (
   <Layout>
     <h1 className="projects-heading" style={{ textAlign: 'center' }}>
-      NOT FOUND :/
+      Not Found :/
     </h1>
   </Layout>
 )

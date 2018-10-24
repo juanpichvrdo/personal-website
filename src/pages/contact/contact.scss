@@ -1,0 +1,14 @@
+@import '../../assets/scss/main';
+
+.contact {
+  text-align: center;
+
+  &-heading {
+    @include heading();
+  }
+
+  &-subheading {
+    @include subheading();
+    border: none;
+  }
+}

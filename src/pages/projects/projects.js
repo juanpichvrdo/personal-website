@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout'
 
-import projectInfo from './projectInfo'
+import projectInfo from '../../assets/information/projectInfo' 
 
 import './projects.scss'
 

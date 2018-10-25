@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout'
-import { skills, familiar, tools } from './skills'
+
+import { skills, familiar, tools } from '../../assets/information/skills'
 
 import './about.scss'
 

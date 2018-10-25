@@ -41,7 +41,12 @@ const Contact = () => {
                   className={contact.icon}
                   style={{ fontSize: '4rem', marginBottom: '.5rem' }}
                 />
-                <a className="contact-links" href={contact.href}>
+                <a
+                  className="contact-links"
+                  href={contact.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {contact.text}
                 </a>
               </div>

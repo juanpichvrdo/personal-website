@@ -11,7 +11,7 @@ const IndexPage = () => (
         Juan Daniel <span className="tags">{'/>'}</span>
       </h1>
       <p className="home-text">
-        Hi, I'm Juan! I'm a 21 year old web developer born, raised, and
+        Hi, I'm Juan! I'm a 21-year-old web developer born, raised, and
         currently living in Santo Domingo, Dominican Republic. I love simple,
         clean UI's and creating user-friendly webapps using cutting edge
         technologies.

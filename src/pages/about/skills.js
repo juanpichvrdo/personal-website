@@ -20,8 +20,8 @@ const skills = [
     class: 'icon-php',
   },
   {
-    name: 'sql',
-    class: 'icon-file-sql',
+    name: 'mysql',
+    class: 'icon-mysql',
   },
   {
     name: 'sass',

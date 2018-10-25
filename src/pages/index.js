@@ -21,8 +21,13 @@ const IndexPage = () => (
         system engineer degree.
       </p>
       <p className="home-text">
-        You can download my CV{' '}
-        <a className="home-links" href="'#'">
+        You can read my CV{' '}
+        <a
+          className="home-links"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://drive.google.com/open?id=1qSNSwUh8-uhpA5grA0snp4GM1Y5-Lg6d"
+        >
           here
         </a>
         , see some of my code on my{' '}

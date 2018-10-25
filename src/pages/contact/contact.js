@@ -29,9 +29,9 @@ const Contact = () => {
           <span className="tags">{'<'}</span>
           Contact <span className="tags">{'/>'}</span>
         </h1>
-        <h3 className="contact-subheading">
+        <p className="contact-text">
           Feel free to contact me through any of the channels below.
-        </h3>
+        </p>
 
         <div className="contact-container">
           {contactInfo.map(contact => {

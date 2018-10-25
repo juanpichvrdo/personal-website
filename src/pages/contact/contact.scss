@@ -8,9 +8,10 @@
     @include heading();
   }
 
-  &-subheading {
-    @include subheading();
-    border: none;
+  &-text {
+    @include text();
+    margin-bottom: 7rem;
+    margin-top: 2rem;
   }
 
   &-container {

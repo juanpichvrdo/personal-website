@@ -3,6 +3,7 @@
 .projects {
   text-align: center;
   height: 100%;
+
   &-heading {
     @include heading();
     margin-bottom: 2rem;
@@ -28,6 +29,14 @@
     @include container();
     margin-top: 10vh;
     padding: 4rem;
+
+    @media only screen and (max-width: 1000px) {
+      padding: 3rem;
+    }
+
+    @media only screen and (max-width: 500px) {
+      padding: 2rem;
+    }
   }
 
   &-link {

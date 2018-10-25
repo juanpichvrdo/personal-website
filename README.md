@@ -7,8 +7,13 @@ For an overview of general Gatsby functionality, see the [Gatsby V2 documentatio
 Clone the repo and navigate to the new directory:
 
 ```sh
-git clone https://github.com/mthariath/portfolio
-cd portfolio
+git clone git@github.com:juanpichvrdo/personal-website.git 
+```
+
+or
+
+```sh
+https://github.com/juanpichvrdo/personal-website.git
 ```
 
 Install all the modules:

@@ -16,7 +16,7 @@
     @include text();
   }
 
-  margin-bottom: 20vh;
+  margin-bottom: 15vh;
 }
 
 .skills {
@@ -30,6 +30,13 @@
     margin-bottom: 7vh;
     justify-content: center;
     padding: 7rem;
+
+    @media only screen and (max-width: 900px) {
+      padding: 5rem;
+    }
+    @media only screen and (max-width: 500px) {
+      padding: 3rem;
+    }
   }
 
   &-icon-container {

@@ -8,8 +8,30 @@
 .body {
   width: 82vw;
   margin-left: 18vw;
+
+  @media only screen and (max-width: 715px) {
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 .sidenav {
   width: 18vw;
+  transition: all 0.5s ease-out;
+
+  @media only screen and (max-width: 715px) {
+    display: none;
+  }
+
+  &-open {
+    display: flex;
+    width: 40%;
+
+    padding-top: 10vh;
+    transition: all 0.5s ease-out;
+
+    @media only screen and (min-width: 715px) {
+      width: 18vw;
+    }
+  }
 }

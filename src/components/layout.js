@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div className="layout">
+        <div className="layout" style={{ transition: 'all .5s' }}>
           <Sidenav className="sidenav" />
           <div className="body">{children}</div>
         </div>

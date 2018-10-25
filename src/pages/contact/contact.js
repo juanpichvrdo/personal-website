@@ -3,6 +3,24 @@ import Layout from '../../components/layout'
 
 import './contact.scss'
 
+const contactInfo = [
+  {
+    icon: 'icon-github',
+    href: 'https://github.com/juanpichvrdo',
+    text: 'juanpichvrdo',
+  },
+  {
+    icon: 'icon-gmail',
+    href: 'mailto:jpichardopena@gmail.com',
+    text: 'jpichardopena@gmail.com',
+  },
+  {
+    icon: 'icon-linkedin',
+    href: 'https://www.linkedin.com/in/juandanielpichardo/',
+    text: 'Juan Daniel Pichardo Peña',
+  },
+]
+
 const Contact = () => {
   return (
     <Layout>
@@ -16,42 +34,26 @@ const Contact = () => {
         </h3>
 
         <div className="contact-container">
-          <div className="contact-medium">
-            <span
-              className="icon-gmail"
-              style={{ fontSize: '5rem', marginBottom: '.5rem' }}
-            />
-            <a className="contact-links" href="mailto:jpichardopena@gmail.com">
-              jpichardopena@gmail.com
-            </a>
-          </div>
-          <div className="contact-medium">
-            <span
-              className="icon-linkedin"
-              style={{ fontSize: '5rem', marginBottom: '.5rem' }}
-            />
-            <a
-              className="contact-links"
-              href="https://www.linkedin.com/in/juandanielpichardo/"
-            >
-              Juan Daniel Pichardo Peña
-            </a>
-          </div>
-          <div className="contact-medium">
-            <span
-              className="icon-github"
-              style={{ fontSize: '5rem', marginBottom: '.5rem' }}
-            />
-            <a className="contact-links" href="https://github.com/juanpichvrdo">
-              juanpichvrdo
-            </a>
-          </div>
-          <div className="contact-medium">
+          {contactInfo.map(contact => {
+            return (
+              <div className="contact-medium">
+                <span
+                  className={contact.icon}
+                  style={{ fontSize: '4rem', marginBottom: '.5rem' }}
+                />
+                <a className="contact-links" href={contact.href}>
+                  {contact.text}
+                </a>
+              </div>
+            )
+          })}
+
+          <div className="contact-medium" style={{ display: 'inline-block' }}>
             <span
               className="icon-phone"
-              style={{ fontSize: '5rem', marginBottom: '.5rem' }}
+              style={{ fontSize: '4rem', marginBottom: '.5rem' }}
             />
-            <span>829-543-6988</span>
+            <span className="contact-phone">829-543-6988</span>
           </div>
         </div>
       </div>

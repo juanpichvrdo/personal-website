@@ -50,7 +50,7 @@ const projectInfo = [
     imgPath: personalWebpage,
     projectName: 'Personal Website',
     projectInfoText:
-      'This site was made with Gatsby. Gatsby is a React-based, GraphQL powered, static site generator. It allowed me to build this site as a I would build a regular react app but the result is a a website that uses only static files for incredibly fast page loads. Used SASS for styling and Icomoon to make the icon font. Hosted on Netlify.',
+      'This site was made with Gatsby. Gatsby is a React-based, GraphQL powered, static site generator. It allowed me to build this site as a I would build a regular react app but the result is a website that uses only static files for incredibly fast page loads. Used SASS for styling and Icomoon to make the icon font. Hosted on Netlify.',
     languajes: [
       { className: 'icon-gatsby' },
       { className: 'icon-react' },

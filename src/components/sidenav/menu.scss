@@ -20,10 +20,6 @@
     border-radius: 10px;
     transition: all 0.5s ease-out;
 
-    &:hover {
-      background: $blue-shade2;
-    }
-
     &:nth-child(1) {
       width: 5rem;
     }
@@ -46,6 +42,10 @@
   .btn-line {
     background: $white;
     width: 5rem;
+
+    &:hover {
+      background: $white;
+    }
   }
 
   transform: rotate(180deg);

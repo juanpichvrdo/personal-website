@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout'
 
-import projectInfo from '../../assets/information/projectInfo' 
+import projectInfo from '../../assets/information/projectInfo'
 
 import './projects.scss'
 
@@ -13,7 +13,10 @@ const Projects = () => {
           <span className="tags">{'<'}</span>
           Projects <span className="tags">{'/>'}</span>
         </h1>
-        <p className="projects-text" style={{ fontSize: '2rem' }}>
+        <p
+          className="projects-text"
+          style={{ fontSize: '2rem', textAlign: 'center' }}
+        >
           Here are some of the things I've build, all of these projects are
           completely responsive:
         </p>

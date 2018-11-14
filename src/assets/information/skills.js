@@ -47,6 +47,10 @@ const skills = [
 
 const familiar = [
   {
+    name: 'angular',
+    class: 'icon-angular',
+  },
+  {
     name: 'webpack',
     class: 'icon-webpack',
   },

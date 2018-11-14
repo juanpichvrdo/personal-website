@@ -26,7 +26,7 @@ const IndexPage = () => (
           className="home-links"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1G-qumGfdpe0EIasEnEAgVy2si4ydbCz-/view"
+          href="https://drive.google.com/open?id=1XiCYet-RQbxkV80i3FtNx1q8gbdAHWTs"
         >
           here
         </a>

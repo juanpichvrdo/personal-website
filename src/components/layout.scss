@@ -17,18 +17,20 @@
 
 .sidenav {
   width: 18vw;
-  transition: all 0.5s ease-out;
+  transition: all 0.6s ease-out;
 
   @media only screen and (max-width: 715px) {
-    display: none;
+    transform: translateX(-120%);
   }
 
   &-open {
     display: flex;
     width: 45vw;
+    opacity: 0.95;
 
     padding-top: 10vh;
     transition: all 0.5s ease-out;
+    transform: translateX(0);
 
     @media only screen and (min-width: 715px) {
       width: 18vw;

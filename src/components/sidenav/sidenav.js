@@ -78,10 +78,4 @@ class Sidenav extends Component {
   }
 }
 
-// const Sidenav = () => {
-//   return (
-
-//   )
-// }
-
 export default Sidenav

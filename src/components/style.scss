@@ -13,8 +13,6 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
-  // background-attachment: fixed;
-  // background-size: cover;
   height: 100%;
   background: $white;
 
@@ -120,4 +118,9 @@ h6 {
 ::selection {
   background: $yellow;
   color: $main-blue;
+}
+
+::selection {
+  background: $yellow;
+  color: $white;
 }

@@ -28,6 +28,10 @@ const skills = [
     class: 'icon-sass',
   },
   {
+    name: 'bootstrap',
+    class: 'icon-bootstrap',
+  },
+  {
     name: 'git',
     class: 'icon-git',
   },

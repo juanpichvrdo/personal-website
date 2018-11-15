@@ -35,6 +35,9 @@ const About = () => {
         </div>
         <h3 className="about-subheading">Familiar </h3>
         <div className="skills-grid">
+          <div className="skills-icon-container">
+            <p className="skills-text">Typescript</p>
+          </div>
           {familiar.map(skill => {
             return (
               <div className="skills-icon-container">

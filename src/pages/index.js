@@ -11,8 +11,7 @@ const IndexPage = () => (
         Juan Daniel <span className="tags">{'/>'}</span>
       </h1>
       <p className="home-text">
-        Hi, I'm Juan! I'm a 21-year-old web developer born, raised, and
-        currently living in Santo Domingo, Dominican Republic. I love simple,
+        Hi, I'm Juan! I'm a 21-year-old web developer born and raised in Santo Domingo, Dominican Republic. I love simple,
         clean UI's and creating user-friendly webapps using cutting edge
         technologies.
       </p>
@@ -21,16 +20,7 @@ const IndexPage = () => (
         system engineer degree.
       </p>
       <p className="home-text">
-        You can read my CV{' '}
-        <a
-          className="home-links"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://drive.google.com/open?id=1XiCYet-RQbxkV80i3FtNx1q8gbdAHWTs"
-        >
-          here
-        </a>
-        , see some of my code on my{' '}
+        You can see some of my code on my{' '}
         <a
           className="home-links"
           target="_blank"
@@ -50,3 +40,13 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+// You can read my CV{ ' ' }
+// <a
+//   className="home-links"
+//   target="_blank"
+//   rel="noopener noreferrer"
+//   href="https://drive.google.com/open?id=1XiCYet-RQbxkV80i3FtNx1q8gbdAHWTs"
+// >
+//   here
+//         </a>

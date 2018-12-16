@@ -17,8 +17,7 @@ const Projects = () => {
           className="projects-text"
           style={{ fontSize: '2rem', textAlign: 'center' }}
         >
-          Here are some of the things I've build, all of these projects are
-          completely responsive:
+          Here are some of the things I've build:
         </p>
 
         {projectInfo.map(project => {

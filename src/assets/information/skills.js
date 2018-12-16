@@ -16,8 +16,12 @@ const skills = [
     class: 'icon-react',
   },
   {
-    name: 'php',
-    class: 'icon-php',
+    name: 'python',
+    class: 'icon-python',
+  },
+  {
+    name: 'django',
+    class: 'icon-django',
   },
   {
     name: 'mysql',
@@ -55,8 +59,16 @@ const familiar = [
     class: 'icon-angular',
   },
   {
+    name: 'php',
+    class: 'icon-php',
+  },
+  {
     name: 'webpack',
     class: 'icon-webpack',
+  },
+  {
+    name: 'gulp',
+    class: 'icon-gulp',
   },
   {
     name: 'firebase',

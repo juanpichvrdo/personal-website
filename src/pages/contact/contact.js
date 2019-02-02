@@ -14,11 +14,11 @@ const contactInfo = [
     href: 'mailto:jpichardopena@gmail.com',
     text: 'jpichardopena@gmail.com',
   },
-  // {
-  //   icon: 'icon-linkedin',
-  //   href: 'https://www.linkedin.com/in/juandanielpichardo/',
-  //   text: 'Juan Daniel Pichardo Peña',
-  // },
+  {
+    icon: 'icon-linkedin',
+    href: 'https://www.linkedin.com/in/juandanielpichardo/',
+    text: 'Juan Daniel Pichardo Peña',
+  },
 ]
 
 const Contact = () => {

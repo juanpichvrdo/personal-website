@@ -55,6 +55,10 @@ const skills = [
 
 const familiar = [
   {
+    name: 'vuejs',
+    class: 'icon-vue-dot-js',
+  },
+  {
     name: 'angular',
     class: 'icon-angular',
   },

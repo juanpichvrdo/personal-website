@@ -33,7 +33,7 @@ const About = () => {
             )
           })}
         </div>
-        <h3 className="about-subheading">Familiar </h3>
+        <h3 className="about-subheading">Basic Knowledge </h3>
         <div className="skills-grid">
           {familiar.map(skill => {
             return (

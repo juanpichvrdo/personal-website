@@ -63,10 +63,6 @@ const familiar = [
     class: 'icon-angular',
   },
   {
-    name: 'php',
-    class: 'icon-php',
-  },
-  {
     name: 'webpack',
     class: 'icon-webpack',
   },

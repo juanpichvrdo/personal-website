@@ -39,14 +39,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
-
-// You can read my CV{ ' ' }
-// <a
-//   className="home-links"
-//   target="_blank"
-//   rel="noopener noreferrer"
-//   href="https://drive.google.com/open?id=1XiCYet-RQbxkV80i3FtNx1q8gbdAHWTs"
-// >
-//   here
-//         </a>
+export default IndexPage;

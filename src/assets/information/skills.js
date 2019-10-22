@@ -16,16 +16,8 @@ const skills = [
     class: 'icon-react',
   },
   {
-    name: 'python',
-    class: 'icon-python',
-  },
-  {
-    name: 'django',
-    class: 'icon-django',
-  },
-  {
-    name: 'mysql',
-    class: 'icon-mysql',
+    name: 'vuejs',
+    class: 'icon-vue-dot-js',
   },
   {
     name: 'sass',
@@ -55,20 +47,12 @@ const skills = [
 
 const familiar = [
   {
-    name: 'vuejs',
-    class: 'icon-vue-dot-js',
+    name: 'python',
+    class: 'icon-python',
   },
   {
-    name: 'angular',
-    class: 'icon-angular',
-  },
-  {
-    name: 'webpack',
-    class: 'icon-webpack',
-  },
-  {
-    name: 'gulp',
-    class: 'icon-gulp',
+    name: 'django',
+    class: 'icon-django',
   },
   {
     name: 'firebase',
@@ -85,10 +69,6 @@ const familiar = [
   {
     name: 'redux',
     class: 'icon-redux',
-  },
-  {
-    name: 'heroku',
-    class: 'icon-heroku',
   },
 ]
 
